@@ -26,7 +26,7 @@ Semi-Siamese Training for Shallow Face Learning
 
 代码：https://github.com/dituu/Semi-Siamese-Training
 
-解读：https://blog.csdn.net/ThunderF/article/details/116193612?spm=1001.2014.3001.5501
+解读：[详细解读浅表人脸学习-Semi-Siamese Training for Shallow Face Learning](https://blog.csdn.net/ThunderF/article/details/116193612)
 
 会议：ECCV 2020 Spotlight
 
