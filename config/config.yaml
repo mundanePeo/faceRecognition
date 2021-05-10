@@ -1,0 +1,39 @@
+# develop config
+mysql_dev:
+  user: root
+  password: 123456
+  host: localhost
+  port: 3306
+  db: face_db # 可以不进行改动
+
+# test config
+mysql_test:
+  user: root
+  password: 123456
+  host: localhost
+  port: 3306
+  db: face_db # 可以不进行改动
+
+# stage config
+mysql_staging:
+  user: root
+  password: 123456
+  host: localhost
+  port: 3306
+  db: face_db # 可以不进行改动
+
+# product config
+mysql_product:
+  user: root
+  password: 123456
+  host: localhost
+  port: 3306
+  db: face_db # 可以不进行改动
+
+# config mode:develop/Testing/staging/product
+mode: develop
+
+validate:
+  api_key: xxx # 旷世人脸识别接口的api_key
+  api_secret: xxx # 旷世人脸识别接口的api_secret
+
