@@ -44,7 +44,7 @@ About the name:
 ## 使用指南
 1.克隆本项目到本地
 ```shell
-
+git clone https://github.com/mundanePeo/faceRecognition.git
 ```
 2.安装相应的python依赖
 ```shell
@@ -100,6 +100,7 @@ python demo.py
 | controll | stop | 终止系统|
 | controll | init | 系统初始化|
 | validate| |验证识别结果|
+
 **注意：** 
 - 系统初始化会清空数据库、存储的人脸库等重要数据。
 - 验证识别的结果只能是前一天到前第9天的数据，暂不支持实时验证，验证结果和过程分别存储在validateResult.txt和runningLog.txt中。
