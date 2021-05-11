@@ -38,7 +38,9 @@ About the name:
 "Face" - this repo is mainly for face recognition.
 "X" - we also aim to provide something beyond face recognition, e.g. face parsing, face lightning.
 "Zoo" - there include a lot of algorithms and models in this repo. image
-![FaceX-Zoo架构图](./static/facex.jpg)
+
+[FaceX-Zoo架构图](./static/facex.jpg)
+
 代码：https://github.com/JDAI-CV/FaceX-Zoo.git
 
 论文：https://arxiv.org/pdf/2101.04407.pdf
@@ -86,14 +88,14 @@ sh controll.sh start
 修改restoreData.py中的图片路径
 python restoreData.py
 ```
-![result_1](static/result_1.jpg)
+[result_1](static/result_1.jpg)
 
 2.识别
 ```shell
 修改demo中的图片路径
 python demo.py
 ```
-![result_2](static/result_2.jpg)
+[result_2](static/result_2.jpg)
 
 3.线上测试结果
 
@@ -126,3 +128,4 @@ python demo.py
 **注意：** 
 - 系统初始化会清空数据库、存储的人脸库等重要数据。
 - 验证识别的结果只能是前一天到前第9天的数据，暂不支持实时验证，验证结果和过程分别存储在validateResult.txt和runningLog.txt中。
+- 旷世人脸识别的API的识别结果未必正确，在验证完后还需手动检查验证结果
