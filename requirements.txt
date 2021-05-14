@@ -21,7 +21,6 @@ genomes==1.1.0
 google-auth==1.16.0
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
-graphsurgeon @ file:///home/app/TensorRT-6.0.1.5/graphsurgeon/graphsurgeon-0.4.1-py2.py3-none-any.whl
 grpcio==1.29.0
 h5py==2.10.0
 idna==2.9
@@ -74,7 +73,6 @@ tensorboard==2.2.2
 tensorboard-plugin-wit==1.6.0.post3
 tensorflow==2.2.0
 tensorflow-estimator==2.2.0
-tensorrt @ file:///home/app/TensorRT-6.0.1.5/python/tensorrt-6.0.1.5-cp37-none-linux_x86_64.whl
 termcolor==1.1.0
 terminaltables==3.1.0
 test-cpp==0.1
@@ -84,7 +82,6 @@ torch==1.2.0
 torchscope @ git+https://github.com/Tramac/torchscope.git@a6afa094919f70b1db85a4afc443b1a1ef1dd21e
 torchvision==0.4.0
 tqdm==4.46.0
-uff @ file:///home/app/TensorRT-6.0.1.5/uff/uff-0.6.5-py2.py3-none-any.whl
 urllib3==1.25.9
 vision==1.0.0
 wcwidth==0.2.5
